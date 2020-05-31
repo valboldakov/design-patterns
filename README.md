@@ -1,4 +1,4 @@
-# Desig Principles
+# Design Principles
 
 - Encapsulate What Varies.
 - Program to an Interface, not an Implementation.

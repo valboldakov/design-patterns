@@ -1,0 +1,6 @@
+**/.idea/
+python/venv/
+python/.idea/
+cs/**/bin/
+cs/**/obj/
+cpp/build/
