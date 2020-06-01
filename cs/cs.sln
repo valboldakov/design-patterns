@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strategy", "strategy\strategy.csproj", "{88B26221-83D0-402B-9B3B-891878AAFA93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "observer", "observer\observer.csproj", "{7C246946-0324-4E1E-B1A6-5A250559A61D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{88B26221-83D0-402B-9B3B-891878AAFA93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88B26221-83D0-402B-9B3B-891878AAFA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88B26221-83D0-402B-9B3B-891878AAFA93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C246946-0324-4E1E-B1A6-5A250559A61D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C246946-0324-4E1E-B1A6-5A250559A61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C246946-0324-4E1E-B1A6-5A250559A61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C246946-0324-4E1E-B1A6-5A250559A61D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
