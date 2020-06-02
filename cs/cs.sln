@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strategy", "strategy\strate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "observer", "observer\observer.csproj", "{7C246946-0324-4E1E-B1A6-5A250559A61D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "decorator", "decorator\decorator.csproj", "{4A8DD049-C308-4C8F-A8ED-8069D9DA5EF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{7C246946-0324-4E1E-B1A6-5A250559A61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C246946-0324-4E1E-B1A6-5A250559A61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C246946-0324-4E1E-B1A6-5A250559A61D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8DD049-C308-4C8F-A8ED-8069D9DA5EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8DD049-C308-4C8F-A8ED-8069D9DA5EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8DD049-C308-4C8F-A8ED-8069D9DA5EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8DD049-C308-4C8F-A8ED-8069D9DA5EF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
