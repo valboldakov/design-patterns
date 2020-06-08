@@ -5,6 +5,7 @@
 - Favor Composition Over Inheritance.
 - Favor Loose Coupling of the Interacting Objects.
 - Classes should be closed for modification but open for extension.
+- High-level classes shouldn’t depend on low-level classes. Both should depend on abstractions.
 
 ## Strategy Pattern
 
@@ -17,3 +18,8 @@ Observer is a behavioral design pattern that lets you define a subscription mech
 ## Decorator Pattern
 
 Decorator is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
+
+
+## Factory Method Pattern
+
+Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
