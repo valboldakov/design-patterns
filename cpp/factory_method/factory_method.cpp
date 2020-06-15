@@ -41,6 +41,6 @@ protected:
 
 int main() {
     NYPizzaStore store;
-    store.order_pizza(Cheese);
+    store.order_pizza(Cheese)
     return 0;
 }
