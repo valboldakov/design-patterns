@@ -28,3 +28,8 @@ Factory Method is a creational design pattern that provides an interface for cre
 ## Abstract Factory Pattern
 
 Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
+
+
+## Singleton Pattern
+
+Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.

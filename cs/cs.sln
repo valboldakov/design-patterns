@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "factory_method", "factory_m
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abstract_factory", "abstract_factory\abstract_factory.csproj", "{13F86BD1-648B-453A-A7CE-8162C05A8A7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "singleton", "singleton\singleton.csproj", "{8C79EBAF-8557-4173-8846-801EDD62101E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{13F86BD1-648B-453A-A7CE-8162C05A8A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13F86BD1-648B-453A-A7CE-8162C05A8A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13F86BD1-648B-453A-A7CE-8162C05A8A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C79EBAF-8557-4173-8846-801EDD62101E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C79EBAF-8557-4173-8846-801EDD62101E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C79EBAF-8557-4173-8846-801EDD62101E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C79EBAF-8557-4173-8846-801EDD62101E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
