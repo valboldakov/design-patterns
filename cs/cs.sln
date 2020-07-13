@@ -14,6 +14,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "singleton", "singleton\sing
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "command", "command\command.csproj", "{B3FDF870-71D1-4305-BF3A-C169A9571FF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adapter", "adapter\adapter.csproj", "{F8707F4F-1878-4BD7-8DE3-7461323BED7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "facade", "facade\facade.csproj", "{6BBD3E7B-DD51-47C1-85EE-34479D86863E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +52,13 @@ Global
 		{B3FDF870-71D1-4305-BF3A-C169A9571FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3FDF870-71D1-4305-BF3A-C169A9571FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3FDF870-71D1-4305-BF3A-C169A9571FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8707F4F-1878-4BD7-8DE3-7461323BED7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8707F4F-1878-4BD7-8DE3-7461323BED7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8707F4F-1878-4BD7-8DE3-7461323BED7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8707F4F-1878-4BD7-8DE3-7461323BED7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBD3E7B-DD51-47C1-85EE-34479D86863E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBD3E7B-DD51-47C1-85EE-34479D86863E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBD3E7B-DD51-47C1-85EE-34479D86863E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBD3E7B-DD51-47C1-85EE-34479D86863E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

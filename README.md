@@ -34,3 +34,11 @@ Singleton is a creational design pattern that lets you ensure that a class has o
 ## Command Pattern
 
 Command is a behavioral design pattern that turns a request into a stand-alone object that contains all information about the request. This transformation lets you parameterize methods with different requests, delay or queue a request’s execution, and support undoable operations.
+
+## Adapter Pattern
+
+Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.
+
+## Facade Pattern
+
+Facade is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes.
