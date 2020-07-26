@@ -15,3 +15,13 @@ add_executable(facade facade/facade.cpp)
 add_executable(template_method template_method/template_method.cpp)
 add_executable(iterator iterator/iterator.cpp)
 add_executable(composite composite/composite.cpp)
+add_executable(state
+        state/state.cpp
+        state/i_phone_state.h
+        state/locked_phone_state.h
+        state/unlocked_phone_state.h
+        state/phone.h
+        state/i_phone.h
+        state/unlocked_phone_state.cpp
+        state/locked_phone_state.cpp
+        state/phone.cpp)
