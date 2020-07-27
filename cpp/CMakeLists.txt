@@ -25,3 +25,4 @@ add_executable(state
         state/unlocked_phone_state.cpp
         state/locked_phone_state.cpp
         state/phone.cpp)
+add_executable(proxy proxy/proxy.cpp)

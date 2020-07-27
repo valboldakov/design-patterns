@@ -58,3 +58,7 @@ Composite is a structural design pattern that lets you compose objects into tree
 ## State Pattern
 
 State is a behavioral design pattern that lets an object alter its behavior when its internal state changes. It appears as if the object changed its class.
+
+## Proxy Pattern
+
+Proxy is a structural design pattern that lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.
