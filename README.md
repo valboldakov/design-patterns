@@ -62,3 +62,26 @@ State is a behavioral design pattern that lets an object alter its behavior when
 ## Proxy Pattern
 
 Proxy is a structural design pattern that lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.
+
+## MVCS Pattern
+
+### Model
+
+The central component of the pattern. It is the application's dynamic data structure, independent of the user interface. It directly manages the data, logic and rules of the application.
+
+### View
+
+Any representation of information such as a chart, diagram or table. Multiple views of the same information are possible, such as a bar chart for management and a tabular view for accountants.
+
+### Controller
+
+Accepts input and converts it to commands for the model or view.
+In addition to dividing the application into these components, the model–view–controller design defines the interactions between them.
+
+- The model is responsible for managing the data of the application. It receives user input from the controller.
+- The view means presentation of the model in a particular format.
+- The controller responds to the user input and performs interactions on the data model objects. The controller receives the input, optionally validates it and then passes the input to the model.
+
+### Service
+
+Between the controller and the model sometimes goes a layer which is called a service. It fetches data from the model and lets the controller use the fetched data. This layer allows to separate data storage (model), data fetching (service) and data manipulation (controller). Since this layer is not part of the original MVC concept, it is optional in most cases but can be useful for code management and reusability purposes in some cases.
