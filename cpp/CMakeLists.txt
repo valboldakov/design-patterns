@@ -27,3 +27,4 @@ add_executable(state
         state/phone.cpp)
 add_executable(proxy proxy/proxy.cpp)
 add_executable(bridge bridge/bridge.cpp)
+add_executable(builder builder/builder.cpp)
