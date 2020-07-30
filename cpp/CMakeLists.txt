@@ -28,3 +28,4 @@ add_executable(state
 add_executable(proxy proxy/proxy.cpp)
 add_executable(bridge bridge/bridge.cpp)
 add_executable(builder builder/builder.cpp)
+add_executable(chain_of_responsibility chain_of_responsibility/chain_of_responsibility.cpp)
