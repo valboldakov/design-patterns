@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chain_of_responsibility", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "flyweight", "flyweight\flyweight.csproj", "{EE7E452F-5E93-4E1D-8B96-EA4B2EDC5612}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interpreter", "interpreter\interpreter.csproj", "{7ACBFCA8-D949-4E6C-9465-F5EA213891E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,5 +116,9 @@ Global
 		{EE7E452F-5E93-4E1D-8B96-EA4B2EDC5612}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE7E452F-5E93-4E1D-8B96-EA4B2EDC5612}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE7E452F-5E93-4E1D-8B96-EA4B2EDC5612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ACBFCA8-D949-4E6C-9465-F5EA213891E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ACBFCA8-D949-4E6C-9465-F5EA213891E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ACBFCA8-D949-4E6C-9465-F5EA213891E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ACBFCA8-D949-4E6C-9465-F5EA213891E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
