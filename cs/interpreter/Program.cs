@@ -2,62 +2,39 @@
 
 namespace interpreter
 {
-    class Context
-    {
-        public int Result { get; set; }
-        public int PositionMultiplier { get; set; }
-        public string Str { get; set; }
-    }
-
     interface IExpression
     {
-        void Interpret(Context context);
+        bool Interpret(string str);
     }
 
     class Digit : IExpression
     {
-        public void Interpret(Context context)
+        public bool Interpret(string str)
         {
-            if (context.Str == "")
+            var isDigit = str switch
             {
-                throw new NotImplementedException();
-            }
-
-            var toAdd = context.Str[0] switch
-            {
-                '0' => 0,
-                '1' => 1,
-                '2' => 2,
-                '3' => 3,
-                '4' => 4,
-                '5' => 5,
-                '6' => 6,
-                '7' => 7,
-                '8' => 8,
-                '9' => 9,
-                _ => throw new NotImplementedException()
+                "0" => true,
+                "1" => true,
+                "2" => true,
+                "3" => true,
+                "4" => true,
+                "5" => true,
+                "6" => true,
+                "7" => true,
+                "8" => true,
+                "9" => true,
+                _ => false
             };
-            context.Str = context.Str.Remove(0, 1);
-
-            context.Result += toAdd * context.PositionMultiplier;
+            return isDigit;
         }
     }
 
     class Number : IExpression
     {
-        public void Interpret(Context context)
+        public bool Interpret(string str)
         {
-            if (context.Str == "")
-            {
-                throw new NotImplementedException();
-            }
-
-            new Digit().Interpret(context);
-            context.PositionMultiplier *= 10;
-            if (context.Str != "")
-            {
-                new Number().Interpret(context);
-            }
+            return new Digit().Interpret(str) ||
+                   new Digit().Interpret(str[0].ToString()) && new Number().Interpret(str.Substring(1));
         }
     }
 
@@ -65,11 +42,9 @@ namespace interpreter
     {
         static void Main(string[] args)
         {
-            var context = new Context();
-            Console.WriteLine(new Number().Interpret(new Context
-            {
-                PositionMultiplier = 1,
-            });
+            Console.WriteLine(new Number().Interpret("123"));
+            Console.WriteLine(new Number().Interpret("f123"));
+            Console.WriteLine(new Number().Interpret("123f34"));
         }
     }
 }
