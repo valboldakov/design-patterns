@@ -105,3 +105,11 @@ Flyweight is a structural design pattern that lets you fit more objects into the
 ## Interpreter Pattern
 
 The interpreter pattern is a design pattern that specifies how to evaluate sentences in a language. The basic idea is to have a class for each symbol (terminal or nonterminal) in a specialized computer language. The syntax tree of a sentence in the language is an instance of the composite pattern and is used to evaluate (interpret) the sentence for a client.
+
+## Mediator Pattern
+
+Mediator is a behavioral design pattern that lets you reduce chaotic dependencies between objects. The pattern restricts direct communications between the objects and forces them to collaborate only via a mediator object.
+
+## Memnto Pattern
+
+Memento is a behavioral design pattern that lets you save and restore the previous state of an object without revealing the details of its implementation.

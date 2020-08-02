@@ -38,6 +38,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "flyweight", "flyweight\flyw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interpreter", "interpreter\interpreter.csproj", "{7ACBFCA8-D949-4E6C-9465-F5EA213891E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mediator", "mediator\mediator.csproj", "{B8A902FA-045C-4C2C-8D77-20574D67EB8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "memento", "memento\memento.csproj", "{C4D4E753-67A9-47D2-BD21-4BF22833A26C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -120,5 +124,13 @@ Global
 		{7ACBFCA8-D949-4E6C-9465-F5EA213891E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ACBFCA8-D949-4E6C-9465-F5EA213891E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ACBFCA8-D949-4E6C-9465-F5EA213891E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A902FA-045C-4C2C-8D77-20574D67EB8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A902FA-045C-4C2C-8D77-20574D67EB8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A902FA-045C-4C2C-8D77-20574D67EB8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A902FA-045C-4C2C-8D77-20574D67EB8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D4E753-67A9-47D2-BD21-4BF22833A26C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D4E753-67A9-47D2-BD21-4BF22833A26C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D4E753-67A9-47D2-BD21-4BF22833A26C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D4E753-67A9-47D2-BD21-4BF22833A26C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

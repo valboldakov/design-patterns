@@ -31,3 +31,8 @@ add_executable(builder builder/builder.cpp)
 add_executable(chain_of_responsibility chain_of_responsibility/chain_of_responsibility.cpp)
 add_executable(flyweight flyweight/flyweight.cpp)
 add_executable(interpreter interpreter/interpreter.cpp)
+add_executable(mediator
+        mediator/mediator.h
+        mediator/main.cpp
+        mediator/handler.h mediator/handler_reaslization.h)
+add_executable(memento memento/memento.cpp)
