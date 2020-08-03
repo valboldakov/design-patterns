@@ -110,6 +110,14 @@ The interpreter pattern is a design pattern that specifies how to evaluate sente
 
 Mediator is a behavioral design pattern that lets you reduce chaotic dependencies between objects. The pattern restricts direct communications between the objects and forces them to collaborate only via a mediator object.
 
-## Memnto Pattern
+## Memento Pattern
 
 Memento is a behavioral design pattern that lets you save and restore the previous state of an object without revealing the details of its implementation.
+
+## Prototype Pattern
+
+Prototype is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
+
+## Visitor Pattern
+
+Visitor is a behavioral design pattern that lets you separate algorithms from the objects on which they operate.

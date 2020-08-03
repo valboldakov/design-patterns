@@ -36,3 +36,5 @@ add_executable(mediator
         mediator/main.cpp
         mediator/handler.h mediator/handler_reaslization.h)
 add_executable(memento memento/memento.cpp)
+add_executable(prototype prototype/prototype.cpp)
+add_executable(visitor visitor/visitor.cpp)
