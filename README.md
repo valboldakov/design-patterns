@@ -1,11 +1,16 @@
-# Design Principles
+# Design Patterns
 
-- Encapsulate What Varies.
-- Program to an Interface, not an Implementation.
-- Favor Composition Over Inheritance.
-- Favor Loose Coupling of the Interacting Objects.
-- Classes should be closed for modification but open for extension.
-- High-level classes shouldn’t depend on low-level classes. Both should depend on abstractions.
+This repository is for leaning basic design patterns. It is based on:
+
+- [Refactoring Guru web site](https://refactoring.guru/).
+- [Head First Design Patterns book](https://www.oreilly.com/library/view/head-first-design/0596007124/).
+
+## Software Design Principles
+
+- Encapsulate what varies.
+- Program to an interface, not an implementation. Depend
+on abstractions, not on concrete classes.
+- Favor composition over inheritance.
 
 ## Strategy Pattern
 
