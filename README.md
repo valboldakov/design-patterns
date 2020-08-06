@@ -1,6 +1,6 @@
 # Design Patterns
 
-This repository is for leaning basic design patterns. It is based on:
+This repository is for learning basic design patterns. It is based on:
 
 - [Refactoring Guru web site](https://refactoring.guru/).
 - [Head First Design Patterns book](https://www.oreilly.com/library/view/head-first-design/0596007124/).
@@ -58,25 +58,37 @@ Prototype is a creational design pattern that lets you copy existing objects wit
 
 Decorator is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
 
+![Decorator](uml/decorator/decorator.png)
+
 ### Adapter Pattern
 
 Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.
+
+![Adapter](uml/adapter/adapter.png)
 
 ### Facade Pattern
 
 Facade is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes.
 
+![Facade](uml/facade/facade.png)
+
 ### Composite Pattern
 
 Composite is a structural design pattern that lets you compose objects into tree structures and then work with these structures as if they were individual objects.
+
+![Composite](uml/composite/composite.png)
 
 ### Proxy Pattern
 
 Proxy is a structural design pattern that lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.
 
+![Proxy](uml/proxy/proxy.png)
+
 ### Flyweight
 
 Flyweight is a structural design pattern that lets you fit more objects into the available amount of RAM by sharing common parts of state between multiple objects instead of keeping all of the data in each object.
+
+![Flyweight](uml/flyweight/flyweight.png)
 
 ## Behavioral Design Patterns
 
