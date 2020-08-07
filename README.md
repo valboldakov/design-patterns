@@ -54,6 +54,12 @@ Prototype is a creational design pattern that lets you copy existing objects wit
 
 ## Structural Design Patterns
 
+### Bridge
+
+Bridge is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
+
+![Bridge](uml/bridge/bridge.png)
+
 ### Decorator Pattern
 
 Decorator is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
@@ -96,49 +102,67 @@ Flyweight is a structural design pattern that lets you fit more objects into the
 
 Strategy is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
 
+![Strategy](uml/strategy/strategy.png)
+
 ### Observer Pattern
 
 Observer is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
+
+![Observer](uml/observer/observer.png)
 
 ### Command Pattern
 
 Command is a behavioral design pattern that turns a request into a stand-alone object that contains all information about the request. This transformation lets you parameterize methods with different requests, delay or queue a request’s execution, and support undoable operations.
 
+![Command](uml/command/command.png)
+
 ### Template Method Pattern
 
 Template Method is a behavioral design pattern that defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure.
+
+![Template Metod](uml/template_method/template_method.png)
 
 ### Iterator Pattern
 
 Iterator is a behavioral design pattern that lets you traverse elements of a collection without exposing its underlying representation (list, stack, tree, etc.).
 
+![Iterator](uml/iterator/iterator.png)
+
 ### State Pattern
 
 State is a behavioral design pattern that lets an object alter its behavior when its internal state changes. It appears as if the object changed its class.
 
-### Bridge
-
-Bridge is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
+![State](uml/state/state.png)
 
 ### Chain of Responsibility
 
 Chain of Responsibility is a behavioral design pattern that lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
 
+![Chain of Responsibility](uml/chain_of_responsibility/chain_of_responsibility.png)
+
 ### Interpreter Pattern
 
 The interpreter pattern is a design pattern that specifies how to evaluate sentences in a language. The basic idea is to have a class for each symbol (terminal or nonterminal) in a specialized computer language. The syntax tree of a sentence in the language is an instance of the composite pattern and is used to evaluate (interpret) the sentence for a client.
+
+![Interpreter](uml/interpreter/interpret.png)
 
 ### Mediator Pattern
 
 Mediator is a behavioral design pattern that lets you reduce chaotic dependencies between objects. The pattern restricts direct communications between the objects and forces them to collaborate only via a mediator object.
 
+![Mediator](uml/mediator/mediator.png)
+
 ### Memento Pattern
 
 Memento is a behavioral design pattern that lets you save and restore the previous state of an object without revealing the details of its implementation.
 
+![Memnto](uml/memento/memento.png)
+
 ### Visitor Pattern
 
 Visitor is a behavioral design pattern that lets you separate algorithms from the objects on which they operate.
+
+![Visitor](uml/visitor/visitor.png)
 
 ## MVCS Pattern
 
